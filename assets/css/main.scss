@@ -56,7 +56,7 @@ nav {
       background: rgba(255,255,255,1);
       border-bottom: 1px solid $light_gray;
       .navbar-brand {
-        color: $charcoal;
+        color: $dark_gray;
       }
       .navbar-nav {
         .nav-item {
@@ -68,8 +68,8 @@ nav {
     }
     .navbar-brand {
       font-family: $title;
-      font-size: 3rem;
-      line-height: 3rem;
+      font-size: 2rem;
+      line-height: 2rem;
     }
     .navbar-nav {
       .nav-item {
@@ -121,11 +121,11 @@ header {
   .mask {
     padding-top: 250px;
     padding-bottom: 300px;
-    h1 {
+    h2 {
       transition: 0.3s all ease-in-out;
       font-family: $title;
-      font-size: 10rem;
-      line-height: 9rem;
+      font-size: 3rem;
+      line-height: 3rem;
       // font-style: italic;
       font-weight: 700;
       @include media-breakpoint-down(xs) {
@@ -146,7 +146,7 @@ header {
 
 #welcome {
   header {
-    background-image: url('https://violino.s3.amazonaws.com/IMG_7033.jpg');
+    background-image: url('/assets/images/richmond.jpg');
     background-size: 100%;
     background-attachment: fixed;
     @include media-breakpoint-down(xs) {
