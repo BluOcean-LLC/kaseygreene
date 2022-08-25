@@ -154,12 +154,11 @@ header {
 #welcome {
   header {
     background-image: url('/assets/images/kasey-kayak.jpg');
-    // background-size: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
     @include media-breakpoint-down(xs) {
       background-size: cover;
-      background-position: -500px;
+      background-position: left bottom;
       background-attachment: scroll;
       background-repeat: no-repeat;
     }
