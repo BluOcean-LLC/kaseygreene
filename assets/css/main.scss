@@ -53,15 +53,15 @@ nav {
     transition: 0.3s all ease-in-out;
     margin-bottom: -100px;
     &.darkened {
-      background: rgba(255,255,255,1);
+      background: $green; // rgba(255,255,255,1);
       border-bottom: 1px solid $light_gray;
       .navbar-brand {
-        color: $dark_gray;
+        color: $white; // $dark_gray;
       }
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: $charcoal;
+            color: $white;
           }
         }
       }
@@ -99,7 +99,7 @@ nav {
               }
               &:active {
                 background: $light_gray;
-                color: $dark_gray;
+                color: $gray;
               }
               .svg-inline--fa {
                 margin-right: 8px;
@@ -146,7 +146,7 @@ header {
 
 #welcome {
   header {
-    background-image: url('/assets/images/richmond.jpg');
+    background-image: url('/assets/images/kasey-kayak.jpg');
     background-size: 100%;
     background-attachment: fixed;
     @include media-breakpoint-down(xs) {

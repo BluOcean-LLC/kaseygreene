@@ -1,7 +1,7 @@
 # Site Settings
-title: Violino Ristorante Italiano
-url: https://violinoristorante.com
-enforce_ssl: violinoristorante.com
+title: Hello, I'm Kasey!
+url: https://kaseygreene.com
+# enforce_ssl: kaseygreene.com
 # Build Settings
 sass:
   sass_dir: _sass
