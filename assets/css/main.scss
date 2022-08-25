@@ -158,7 +158,7 @@ header {
     background-attachment: fixed;
     @include media-breakpoint-down(xs) {
       background-size: cover;
-      background-position: left bottom;
+      background-position: -20% 100%;
       background-attachment: scroll;
       background-repeat: no-repeat;
     }
