@@ -146,7 +146,7 @@ header {
 
 #welcome {
   header {
-    background-image: url('/assets/images/kasey-kayak.jpg');
+    background-image: url('assets/images/kasey-kayak.jpg');
     background-size: 100%;
     background-attachment: fixed;
     @include media-breakpoint-down(xs) {
