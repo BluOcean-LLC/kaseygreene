@@ -129,8 +129,8 @@ header {
     padding-top: 250px;
     padding-bottom: 300px;
     @include media-breakpoint-down(xs) {
-      padding-top: 150px;
-      padding-bottom: 400px;
+      padding-top: 100px;
+      padding-bottom: 450px;
     }
     h2 {
       transition: 0.3s all ease-in-out;
