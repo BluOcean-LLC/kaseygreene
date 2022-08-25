@@ -54,7 +54,7 @@ nav {
     margin-bottom: -100px;
     &.darkened {
       background: $green; // rgba(255,255,255,1);
-      border-bottom: 1px solid $light_gray;
+      border-bottom: 1px solid $green;
       .navbar-brand {
         color: $white; // $dark_gray;
       }
@@ -65,11 +65,18 @@ nav {
           }
         }
       }
+      .subtitle-nav {
+        color: $white;
+        display: block;
+      }
     }
     .navbar-brand {
       font-family: $title;
       font-size: 2rem;
       line-height: 2rem;
+    }
+    .subtitle-nav {
+      display: none;
     }
     .navbar-nav {
       .nav-item {
@@ -221,7 +228,7 @@ header {
 }
 
 .footer {
-  background: $white;
+  background: $light_gray;
   p {
     color: $gray;
   }
